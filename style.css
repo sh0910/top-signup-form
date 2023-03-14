@@ -13,18 +13,21 @@ html {
 	display: grid;
 	grid-template-columns: 2fr 3fr;
 	margin: 0 auto;
+	margin-top: 6.4rem;
 	max-width: 90rem;
-	background-color: #eff1f0;
+	height: 54rem;
+	background-color: #f1f3f5;
+	box-shadow: 0 0 1.4rem rgba(0, 0, 0, 0.25);
 }
 
-.btn:link,
-.btn:visited {
+.photo-credits a:link,
+.photo-credits a:visited {
 	text-decoration: none;
 	color: #fff;
 }
 
-.btn:active,
-.btn:hover {
+.photo-credits a:active,
+.photo-credits a:hover {
 	text-decoration: underline;
 }
 
@@ -80,6 +83,7 @@ main {
 	gap: 3.2rem;
 	font-size: 1.6rem;
 	line-height: 1.2;
+	overflow: hidden;
 }
 
 section {
@@ -97,7 +101,7 @@ section {
 .section-signup {
 	padding: 2.8rem 1.8rem;
 	background-color: #fff;
-	box-shadow: 0 12px 10px -4px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1rem 1.4rem rgba(0, 0, 0, 0.25);
 	height: auto;
 }
 
@@ -117,7 +121,7 @@ form {
 label {
 	display: block;
 
-	color: #4b5f52;
+	color: #1f662b;
 	font-size: 1rem;
 	font-weight: 700;
 	letter-spacing: 1.5px;
@@ -150,7 +154,7 @@ input[required]:focus {
 	padding: 0.8rem 1.6rem;
 	color: #fff;
 	font-weight: 700;
-	background-color: #5e7767;
+	background-color: #2b8a3e;
 	border-radius: 10px;
 	margin-bottom: 2.4rem;
 	transition: background-color 0.3s;
@@ -158,13 +162,13 @@ input[required]:focus {
 
 .btn-signup:active,
 .btn-signup:hover {
-	background-color: #7e9285;
+	background-color: #2f9e44;
 	text-decoration: none;
 }
 
 .btn-login:link,
 .btn-login:active {
-	color: #5e7767;
+	color: #2b8a3e;
 	font-weight: 700;
 }
 .section-account p {
